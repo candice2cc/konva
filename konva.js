@@ -2,7 +2,7 @@
  * Konva JavaScript Framework v1.7.6
  * http://konvajs.github.io/
  * Licensed under the MIT or GPL Version 2 licenses.
- * Date: Thu Dec 21 2017
+ * Date: Tue Dec 26 2017
  *
  * Original work Copyright (C) 2011 - 2013 by Eric Rowell (KineticJS)
  * Modified work Copyright (C) 2014 - 2017 by Anton Lavrenov (Konva)
@@ -12144,6 +12144,7 @@
     };
     var tween = new Konva.Tween(params);
     tween.play();
+    return tween;
   };
 
   /*

@@ -477,6 +477,7 @@
     };
     var tween = new Konva.Tween(params);
     tween.play();
+    return tween;
   };
 
   /*
